@@ -1,0 +1,7 @@
+AppleWatch 17.07.2034 small 489
+CD 23.11.2006 small 17
+Headphones 12.02.2023 big 25
+Laptop 12.06.2089 middle 20
+Smartphone 10.11.2013 small 13
+TV 30.09.2004 big 18
+VR 22.04.2023 middle 23
