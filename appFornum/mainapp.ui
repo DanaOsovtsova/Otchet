@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mainapp</class>
+ <widget class="QMainWindow" name="Mainapp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>667</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Mainapp</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>451</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(12, 22, 12);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>простое ли число, если нет, то разложить на простые множители
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>вычислить значение sinx, разложив в ряд тейлора
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>найти действительные корни квадратного уравнения</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="inputline">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>460</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="outputline">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>110</y>
+      <width>451</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/mathematics-concept-illustration_114360-3972.jpg);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>90</y>
+      <width>321</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ВЫБИРАЙТЕ ЗАДАЧУ, КОТОРУЮ ХОТИТЕ РЕШИТЬ</string>
+    </property>
+   </widget>
+   <zorder>inputline</zorder>
+   <zorder>outputline</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
